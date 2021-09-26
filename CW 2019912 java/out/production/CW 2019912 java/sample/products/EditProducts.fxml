@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="650.0" style="-fx-background-color: #D980FA;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.products.EditProducts">
+   <children>
+      <Button layoutX="195.0" layoutY="519.0" mnemonicParsing="false" onAction="#Update" prefHeight="83.0" prefWidth="221.0" text="Edit">
+         <font>
+            <Font name="Arial Alternative Regular" size="39.0" />
+         </font></Button>
+      <TextField fx:id="txtNew" layoutX="102.0" layoutY="388.0" prefHeight="83.0" prefWidth="446.0" promptText="New Product Name/ID">
+         <font>
+            <Font size="27.0" />
+         </font></TextField>
+      <TextField fx:id="txtExisting" layoutX="102.0" layoutY="251.0" prefHeight="83.0" prefWidth="446.0" promptText="Current Produt Name/ID">
+         <font>
+            <Font size="27.0" />
+         </font></TextField>
+      <ChoiceBox fx:id="NameId" layoutX="391.0" layoutY="171.0" prefHeight="63.0" prefWidth="121.0" />
+      <Label layoutX="180.0" layoutY="171.0" text="Edit By">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="38.0" text="Edit Products">
+         <font>
+            <Font name="Arial Alternative Regular" size="64.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="139.0" fitWidth="112.0" layoutX="44.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagers/profile.png" />
+         </image>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </ImageView>
+      <Separator layoutX="174.0" orientation="VERTICAL" prefHeight="172.0" prefWidth="0.0" />
+      <Separator layoutX="44.0" layoutY="152.0" prefHeight="4.0" prefWidth="528.0" />
+   </children>
+</AnchorPane>

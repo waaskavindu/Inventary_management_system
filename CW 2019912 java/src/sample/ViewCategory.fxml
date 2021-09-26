@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #D980FA;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewCategory">
+   <children>
+      <TableView fx:id="tblView" layoutY="142.0" prefHeight="418.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="tblColumn" prefWidth="599.1999969482422" text="Category" />
+        </columns>
+      </TableView>
+      <Label layoutX="152.0" layoutY="26.0" text="View Category">
+         <font>
+            <Font name="Arial Alternative Regular" size="49.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="89.0" fitWidth="100.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagers/profile.png" />
+         </image>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </ImageView>
+      <Separator layoutX="121.0" layoutY="14.0" orientation="VERTICAL" prefHeight="121.0" prefWidth="0.0" />
+      <Separator layoutX="14.0" layoutY="113.0" prefHeight="0.0" prefWidth="497.0" />
+   </children>
+</AnchorPane>

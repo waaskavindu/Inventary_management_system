@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="650.0" style="-fx-background-color: #FDA7DF;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.products.DeleteProducts">
+   <children>
+      <Button layoutX="232.0" layoutY="465.0" mnemonicParsing="false" onAction="#Delete" text="Delete">
+         <font>
+            <Font name="Arial Alternative Regular" size="39.0" />
+         </font></Button>
+      <TextField fx:id="txtDelete" layoutX="91.0" layoutY="325.0" prefHeight="81.0" prefWidth="463.0" promptText=" Product need to delete">
+         <font>
+            <Font size="27.0" />
+         </font></TextField>
+      <ChoiceBox fx:id="NameId" layoutX="375.0" layoutY="206.0" prefHeight="72.0" prefWidth="110.0" />
+      <Label layoutX="137.0" layoutY="230.0" text="Delete by">
+         <font>
+            <Font name="Arial Alternative Regular" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="167.0" layoutY="66.0" text="Delete Product">
+         <font>
+            <Font name="Arial Alternative Regular" size="64.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="131.0" fitWidth="117.0" layoutX="28.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagers/profile.png" />
+         </image>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </ImageView>
+      <Separator layoutX="153.0" layoutY="14.0" orientation="VERTICAL" prefHeight="189.0" prefWidth="5.0" />
+      <Separator layoutX="31.0" layoutY="179.0" prefHeight="0.0" prefWidth="564.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="650.0" style="-fx-background-color: #FFC312;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddCategory">
+   <children>
+      <Button layoutX="228.0" layoutY="421.0" mnemonicParsing="false" onAction="#AddCategory" prefHeight="66.0" prefWidth="160.0" text="Add">
+         <font>
+            <Font size="39.0" />
+         </font></Button>
+      <TextField fx:id="txtCategory" layoutX="138.0" layoutY="304.0" prefHeight="66.0" prefWidth="362.0" promptText="Enter Category Name">
+         <font>
+            <Font size="27.0" />
+         </font></TextField>
+      <Label layoutX="193.0" layoutY="116.0" prefHeight="84.0" prefWidth="390.0" text="Add Category">
+         <font>
+            <Font name="Arial Alternative Regular" size="64.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="115.0" fitWidth="108.0" layoutX="55.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagers/profile.png" />
+         </image>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </ImageView>
+      <Separator layoutX="60.0" layoutY="235.0" prefHeight="0.0" prefWidth="517.0" />
+      <Separator layoutX="174.0" layoutY="58.0" orientation="VERTICAL" prefHeight="225.0" prefWidth="3.0" />
+   </children>
+</AnchorPane>

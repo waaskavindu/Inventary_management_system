@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="650.0" style="-fx-background-color: #F79F1F;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.stock.ViewStock">
+   <children>
+      <TableView fx:id="tblView" layoutY="154.0" prefHeight="481.0" prefWidth="650.0">
+        <columns>
+            <TableColumn fx:id="tblColumnCategory" prefWidth="142.19999086856842" text="Category" />
+            <TableColumn fx:id="tblColumnId" prefWidth="143.59999084472656" text="ProductId" />
+          <TableColumn fx:id="tblColumnName" prefWidth="200.4000244140625" text="ProductName" />
+          <TableColumn fx:id="tblColumnStock" prefWidth="166.00003051757812" text="StockAmount" />
+        </columns>
+      </TableView>
+      <Label layoutX="184.0" layoutY="45.0" text="View Stock">
+         <font>
+            <Font name="Arial Alternative Regular" size="64.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="103.0" fitWidth="122.0" layoutX="34.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagers/profile.png" />
+         </image>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </ImageView>
+      <Separator layoutX="153.0" orientation="VERTICAL" prefHeight="152.0" prefWidth="3.0" />
+      <Separator layoutX="25.0" layoutY="136.0" prefHeight="0.0" prefWidth="530.0" />
+   </children>
+</AnchorPane>

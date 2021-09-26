@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="650.0" style="-fx-background-color: #F79F1F;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DeleteCategory">
+   <children>
+      <Button layoutX="229.0" layoutY="434.0" mnemonicParsing="false" onAction="#Delete" prefHeight="70.0" prefWidth="189.0" text="Delete">
+         <font>
+            <Font size="39.0" />
+         </font></Button>
+      <Label layoutX="146.0" layoutY="109.0" text="Delete Category">
+         <font>
+            <Font name="Arial Alternative Regular" size="64.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="105.0" fitWidth="110.0" layoutX="16.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagers/profile.png" />
+         </image>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </ImageView>
+      <Separator layoutX="130.0" layoutY="46.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Separator layoutX="21.0" layoutY="203.0" prefHeight="11.0" prefWidth="584.0" />
+      <ChoiceBox fx:id="selectCategory" layoutX="352.0" layoutY="315.0" prefHeight="63.0" prefWidth="178.0" />
+      <Label layoutX="127.0" layoutY="330.0" text="Select category ">
+         <font>
+            <Font name="Arial Alternative Symbol" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
